@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T16:03:48.792Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="v9LKgxPTnK_4dqG2qmua" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-24T05:48:41.194Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="VqqQi5jfK7rEYpz6k3hl" version="14.6.6" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1187" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,12 +91,6 @@
             <mxPoint x="510" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7mQreww-ip8RclzXnmLA-15" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" source="7baba1c4bc27f4b0-2" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="370" y="320" as="sourcePoint" />
-            <mxPoint x="450" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7mQreww-ip8RclzXnmLA-16" value="update()" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" target="7baba1c4bc27f4b0-4" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="290" y="390" as="sourcePoint" />
@@ -149,7 +143,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7mQreww-ip8RclzXnmLA-27" value="buy_course" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="30" width="900" height="640" as="geometry" />
+          <mxGeometry x="50" y="30" width="920" height="630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
