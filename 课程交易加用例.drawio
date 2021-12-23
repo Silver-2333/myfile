@@ -1,1 +1,265 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T02:52:16.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" version="16.0.3" etag="FOeG8TcmTAog9N4GNUoA" type="github"><diagram id="NtLBy2_qyZY-gGllag3N">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-23T03:22:21.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="Lkep7pTbk8wfpBLW_MBu" version="16.0.3" type="github">
+  <diagram id="NtLBy2_qyZY-gGllag3N" name="Page-1">
+    <mxGraphModel dx="1887" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--1" value="[achieve]课程交易量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="60" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--3" target="OzWFfbWWjsoxJ_5Amdo--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--3" value="[achieve]用户的购买率" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="230" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--4" value="[max] 课程数量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="220" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--5" value="[achieve]用户基数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--7" target="OzWFfbWWjsoxJ_5Amdo--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--7" value="[max] 课程优惠力度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="510" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--9" target="OzWFfbWWjsoxJ_5Amdo--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--9" value="[max] 相关课程推荐精确度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="410" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--11" target="OzWFfbWWjsoxJ_5Amdo--3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="300" />
+              <mxPoint x="640" y="300" />
+              <mxPoint x="640" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--11" value="[max] 课程质量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="500" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--36" target="OzWFfbWWjsoxJ_5Amdo--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--13" value="[max] 合作商收入占比" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1213" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--15" value="[avoid]摄影机构流失" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1168" y="450" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--17" target="OzWFfbWWjsoxJ_5Amdo--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--17" value="[achieve]课程评价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="660" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--19" target="OzWFfbWWjsoxJ_5Amdo--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--19" value="[achieve] 奖惩机制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="660" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--21" target="OzWFfbWWjsoxJ_5Amdo--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--21" value="[min]平台抽成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="680" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--23" target="OzWFfbWWjsoxJ_5Amdo--5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--23" value="[max] 平台曝光度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="370" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--25" target="OzWFfbWWjsoxJ_5Amdo--23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--25" value="[max] 广告合作商渠道曝光度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="510" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--26" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--27" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="330" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--28" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--29" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="840" y="360" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--30" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="300" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--31" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="275" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--32" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="840" y="600" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--33" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="590" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--34" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.554;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--4" target="OzWFfbWWjsoxJ_5Amdo--26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="165" as="sourcePoint" />
+            <mxPoint x="760" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--35" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="160" as="sourcePoint" />
+            <mxPoint x="700" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--36" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="340" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--13" target="OzWFfbWWjsoxJ_5Amdo--36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="450" as="sourcePoint" />
+            <mxPoint x="1115" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="360" />
+              <mxPoint x="1115" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--52" value="课程下单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="780" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--55" value="相关课程推荐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="722" y="840" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--57" value="收集用户对课程反馈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="775" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--61" value="产品得到有效推广" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="660" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--64" value="建立课程评价与推荐度挂钩制度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="770" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--65" value="课程下单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="582.5" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--66" value="相关课程推荐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1163" y="582.5" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--70" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--68" target="OzWFfbWWjsoxJ_5Amdo--15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="580" as="sourcePoint" />
+            <mxPoint x="1150" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--68" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1198" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--71" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--66" target="OzWFfbWWjsoxJ_5Amdo--68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1213" y="582.5" as="sourcePoint" />
+            <mxPoint x="1213" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--72" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--67" target="OzWFfbWWjsoxJ_5Amdo--13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="580" as="sourcePoint" />
+            <mxPoint x="1010" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--67" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--75" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="OzWFfbWWjsoxJ_5Amdo--67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="580" as="sourcePoint" />
+            <mxPoint x="1020" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--76" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--55" target="OzWFfbWWjsoxJ_5Amdo--9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="765" y="660" as="sourcePoint" />
+            <mxPoint x="760" y="550" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--81" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--52" target="OzWFfbWWjsoxJ_5Amdo--21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="810" as="sourcePoint" />
+            <mxPoint x="900" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--82" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="870" y="770" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--85" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="627.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--86" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--89" target="OzWFfbWWjsoxJ_5Amdo--25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="620" as="sourcePoint" />
+            <mxPoint x="310" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--87" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--64" target="OzWFfbWWjsoxJ_5Amdo--19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="770" as="sourcePoint" />
+            <mxPoint x="510" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--88" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--92" target="OzWFfbWWjsoxJ_5Amdo--17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="760" as="sourcePoint" />
+            <mxPoint x="600" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--89" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="584.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--90" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--61" target="OzWFfbWWjsoxJ_5Amdo--89">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="287.5" y="660" as="sourcePoint" />
+            <mxPoint x="290" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--91" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="470" y="715" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--92" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="715" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWFfbWWjsoxJ_5Amdo--93" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="OzWFfbWWjsoxJ_5Amdo--57" target="OzWFfbWWjsoxJ_5Amdo--92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="645" y="775" as="sourcePoint" />
+            <mxPoint x="645" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
